@@ -19,7 +19,7 @@ class App < Sinatra::Base
     i = 0
     while i < @number
       i += 1
-      resp.write "#{@phrase}"
+      "#{@phrase}"
     end 
   end 
 
